@@ -1,0 +1,8 @@
+def dict(num):
+ dlist = []
+ chr = ','
+ sq = num*num
+ numsq = num + ':'+ sq
+
+ dlist.append(numsq)
+ print (chr.join(dlist))

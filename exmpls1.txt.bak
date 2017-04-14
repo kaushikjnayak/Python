@@ -1,0 +1,16 @@
+str = raw_input('Enter the 2 range: ')
+arr = str.split(',')
+a = int(arr[0])
+b = int(arr[1])
+twodarr(a,b)
+
+def twodarr(m,n):
+ mxn = [ [ 0 for i in range(n) ] for j in range(m) ]
+ for i in range(0,m):
+  for j in range(0,n):
+   mxn[i][j] = i*j
+ return(mxn)
+
+ x = input('Enter words: ')
+ warr = x.split(',')
+ swarr = sorted(swarr)
