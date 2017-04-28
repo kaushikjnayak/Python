@@ -1,3 +1,4 @@
+#count the Number of digits and alphabets in a sentence
 str1 = input ('Enter a Sentence: ')
 
 characters = list(str(str1));
