@@ -1,3 +1,7 @@
+#Count the frequency of occurence of each character in a file and display the count for each values.
+#using dictionary.
+#Check for existence of a file and read from a file.
+
 def char_freq_table(afilename):
     import os                                                 
     if not ( os.path.isfile(afilename) ):                     
