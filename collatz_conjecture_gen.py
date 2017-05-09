@@ -1,3 +1,6 @@
+# Verify Collatz Conjecture upto n Natural number.
+# https://en.wikipedia.org/wiki/Collatz_conjecture
+
 def collatzgen(num):
   if type(num) == int:
     
