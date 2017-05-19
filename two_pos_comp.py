@@ -1,5 +1,6 @@
 __author__ = 'kaushik'
 
+# count the number of 2 word substrings that match in between two words.
 def string_match(a, b):
       ct = 0
       two_sbtr_a = {}
