@@ -16,3 +16,13 @@ print (b)
 import random
 for i in range(20):
    print ( random.randint(0, 5))
+
+#Divide the range 1,60 into 12 equally spaced divisions.
+#endpoint=False makes ending no(60.0 here) to not appear.
+adiv = np.linspace( 0.0,60.0,endpoint=False,num=12)
+
+print (adiv)
+
+n3 = np.loadtxt('3n+1.txt')
+
+print (n3)

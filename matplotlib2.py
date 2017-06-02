@@ -14,7 +14,16 @@ plt.xlabel("Year")
 my_xticks = years
 plt.xticks(years, my_xticks)
 
-plt.plot(years, salary, color='green', marker='o', linestyle='solid')
+#plot with solid line
+plt.plot(years, salary, color='green', marker='o', linestyle='solid', label = 'Default')
+
+#plot with dotted line
+#plt.plot(years, salary, color='green', marker='o', linestyle='--')
+
+
+
+from numpy.random import randn
+#include markers red dotted
+plt.plot(years, salary, 'ro--', label='STEPS', drawstyle='steps-post')
+plt.legend(loc='best')
 plt.show()
-
-
