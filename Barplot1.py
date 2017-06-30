@@ -8,6 +8,7 @@ dep = employees['DEPARTMENT_ID'][1:20]
 empsal = employees['SALARY'][1:20]
 
 #barchart of salaries compared across departments
-plt.barh(dep,empsal,height=5)
+plt.bar(dep,empsal,height=5)
 
+#display
 plt.show()
